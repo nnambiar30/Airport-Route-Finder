@@ -1,0 +1,12 @@
+Development: 
+
+11/24/21 Since all of us are currently off campus we decided to do a zoom call. We laid down the foundation for our bfs traversal algorithm. We are working on creating an airport class as well as implementing the OpenFlight dataset within our program. We are using the Haversine formula to calculate the distance between two coordinates. As in our proposal we implemented the distance as weighted edges and the airports as vertices. Lastly, we created empty files for the basis of our project.
+
+11/28/21 We started off by doing BFS as our traversal. We were able to correctly integrate it with our dataset, which allowed us to map out the future of our project more accurately. In addition, we also created our makefile, which will be very important in testing. We drew inspiration from previous MPs when creating this makefile, and will continue to modify it in the future as our project becomes more robust. 
+
+12/7/21 We finished one of our two algorithms, this one being A* search. During the process we were able to overcome the challenges with implementing such a complex algorithm for a large dataset like this. Also, we created printable test cases, specifically for the farthest and closest airport to Chicago O’Hare, which we used as the basis for our testing. We also created helper methods to follow the path created from the starting airport to the destination airport, which will not only aid in the functionality of our project, but improve future testing.
+
+12/9/21 We finished our last algorithm, being Kruskals. Our main goal was to ensure that a minimum spanning tree could be created with so many data points, and we were able to accomplish that. Furthermore, to test our implementation, we made various print test methods to determine the number of edges in total and in the MST. We then verified our results by comparing it to the dataset. We aim to finish out the project in the closing week by adding more test cases and polishing up our whole product.
+
+12/11/21 
+Finished creating test cases for A* star algorithm, Kruskal, and BFS. Created smaller files for routes and airports to test findings. We used DFW, CMI, ORD, LAX, and CAR airports. CAR does not have any connections, so we were able to test a larger amount of potential errors. We also created bad files to check for edge cases in the reading of the files. Made small adjustments in A* to allow for testing such as the creation of the print method.
